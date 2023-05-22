@@ -1,0 +1,146 @@
+@charset 'UTF-8';
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+
+.body {
+  color: rgba(255, 255, 255, 0.949);
+  font-family: "Roboto Slab", serif;
+  background-image: url(../imagenes/fondoneon1.jpg);
+}
+.header {
+  background-image: url(../imagenes/fondoneon1.jpg);
+  width: 100%;
+  height: 100px;
+}
+.header h1 {
+  padding: 30px;
+  text-align: left;
+}
+
+h3 {
+  text-align: center;
+}
+
+.div {
+  width: 100%;
+  height: auto;
+  background: none;
+  border-top: solid #1e7bc7;
+  border-bottom: solid #1e7bc7;
+  padding: 5px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.main {
+  background: none;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.section {
+  background: none;
+  width: 50%;
+  height: 100vh;
+}
+
+.section .mario {
+  justify-content: center;
+  width: 95%;
+  height: 300px;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+
+.aside {
+  background: none;
+  width: 50%;
+  height: auto;
+  border-left: solid #1e7bc7;
+}
+.aside .mortalk {
+  justify-content: center;
+  width: 95%;
+  height: 300px;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+
+.parrafo {
+  text-align: justify;
+  font-size: 18px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.button {
+  align-items: center;
+  margin-left: 50px;
+}
+
+.boton {
+  display: inline-block;
+  margin: 15px;
+  padding: 20px 60px;
+  color: rgb(145, 218, 255);
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 24px;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+a:hover {
+  color: hsl(283, 100%, 60%);
+  background-color: #370084;
+  box-shadow: 0 0 10px #228be1;
+}
+
+.footer {
+  background-image: url(../imagenes/fondoneon1.jpg);
+  width: 100%;
+  height: 50px;
+}
+
+.fuente {
+  text-align: center;
+}
+
+form {
+  background-color: none;
+  border-radius: 3px;
+  color: rgba(233, 233, 233, 0.949);
+  font-size: 18px;
+  padding: 20px;
+}
+.formulario {
+  margin: 0 auto;
+  width: 300px;
+}
+
+.field {
+  border: solid 1px #ccc;
+  padding: 10px;
+  width: 200px;
+}
+
+strong {
+  font-size: 40px;
+}
+
+.cartelito .cartel {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+}
+#carrito {
+  width: 300px;
+  height: 300px;
+  border-radius: 3px;
+}
+
+.cartelito .menu {
+  text-align: center;
+}
